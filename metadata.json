@@ -1,0 +1,13 @@
+{
+	"id": "starter_pack",
+	"name": "Starter Pack",
+	"display_name": "Starter Pack",
+	"author": ["MushiJutsu, Maratby"],
+	"description": "A Vanilla-Friendly Content Expansion.",
+	"prefix": "stpck",
+	"main_file": "main.lua",
+	"priority": 3,
+	"badge_colour": "FFA500",
+	"badge_text_colour": "FFFFFF",
+	"version": "1.0.0",
+}
