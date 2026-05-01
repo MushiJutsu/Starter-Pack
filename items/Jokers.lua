@@ -567,3 +567,16 @@ SMODS.Joker {
 		end
 	end,
 }
+
+SMODS.Joker {
+	key = "jpg",
+	unlocked = true,
+	discovered = true,
+	blueprint_compat = true,
+	rarity = 2,
+	cost = 5,
+	atlas = "StarterPackJokers",
+	attributes = {"xchips"},
+	pos = { x = 2, y = 1 },
+	config = {extra = { xchips = 1.5x}},
+}
