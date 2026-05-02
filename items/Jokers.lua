@@ -569,6 +569,31 @@ SMODS.Joker {
 }
 
 SMODS.Joker {
+	key = "poorlydrawn",
+	unlocked = true,
+	discovered = true,
+	blueprint_compat = true,
+	rarity = 2,
+	cost = 5,
+	atlas = "StarterPackJokers",
+	attributes = {"xchips"},
+	pos = { x = 8, y = 2 },
+	config = {extra = { xchips = 1.5} },
+	loc_vars = function(self, info_queue, card)
+        return { vars = { card.ability.extra.xchips } }
+    end,
+    calculate = function(self, card, context)
+        if context.individual and context.cardarea == G.play then
+            local id = context.other_card:get_id() --get_id grabs a rank for the card, i believe; anything from 1-13 for each rank, 11, 12, and 13 being Jack, Queen, and King
+            if id <= 10 and id >= 0 and id % 2 == 0 then
+                return {
+                    xchips = card.ability.extra.xchips 
+                }
+            end
+        end
+    end
+}
+SMODS.Joker {
 	key = "jpg",
 	unlocked = true,
 	discovered = true,
