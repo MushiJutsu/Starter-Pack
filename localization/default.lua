@@ -110,6 +110,124 @@ return {
 					"run each hand",
 				},
 			},
+			["j_stpck_poorlydrawn"] = {
+				["name"] = "Poorly Drawn",
+				["text"] = {
+					'NOT IMPLEMENTED YET',
+				},
+			},
+			["j_stpck_jpg"] = {
+				["name"] = "joker.jpg",
+				["text"] = {
+					'NOT IMPLEMENTED YET',
+				},
+			},
+            j_stpck_greentext = {
+                name = 'Greentext',
+                text = {
+                    '{C:green}>be me{}',
+                    '{C:green}>joker{}',
+                    '{C:green}>make every probability 1/3{}',
+                    '{C:green}>mfw{}',
+                    '{C:green}>pic related{}'
+                }
+            },
+
+            j_stpck_artistsrendition = {
+                name = "Artist's Rendition",
+                text = {
+                    'NOT IMPLEMENTED YET'
+                }
+            },
+
+            j_stpck_tntl = {
+                name = "Trying Not to Laugh",
+                text = {
+                    "{C:mult}#1#{} Mult",
+                    "{C:mult}-3{} for each {C:attention}Joker{} card owned",
+                    "{C:inactive}(Currently {C:red}+#2#{C:inactive} Mult)"
+                }
+            },
+
+            j_stpck_offputting = {
+                name = "Offputting",
+                text = {
+                    '{C:mult}+#1#{} Mult for every',
+                    'non-face Card in your hand'
+                }
+            },
+            j_stpck_erchiushorror = {
+                name = "Erchius Horror",
+                text = {
+                    'NOT IMPLEMENTED YET'
+                }
+            },
+            j_stpck_snowgravejoker = {
+                name = "Snowgrave",
+                text = {
+                    'NOT IMPLEMENTED YET'
+                }
+            },
+            j_stpck_jimbosinferno = {
+                name = "Jimbo's Inferno",
+                text = {
+                    'NOT IMPLEMENTED YET'
+                }
+            },
+            j_stpck_spaceshiplicense = {
+                name = "Spaceship License",
+                text = {
+                    'NOT IMPLEMENTED YET'
+                }
+            },
+            j_stpck_playingmygame = {
+                name = "THANK YOU SO MUCH FOR TO PLAYING MY GAME",
+                text = {
+                    '{C:mult}Buh-bye!{}'
+                }
+            },
+            j_stpck_realisticjoker = {
+                name = "Realistic Joker",
+                text = {
+                    'NOT IMPLEMENTED YET'
+                }
+            },
+            j_stpck_deepblues = {
+                name = "Deep Blues",
+                text = {
+                    'NOT IMPLEMENTED YET'
+                }
+            },
+            j_stpck_cloverjoker = {
+                name = "Clover",
+                text = {
+                    'NOT IMPLEMENTED YET'
+                }
+            },
+            j_stpck_jokerbot = {
+                name = "JokerBot",
+                text = {
+                    'NOT IMPLEMENTED YET'
+                }
+            },
+            j_stpck_wonderflower = {
+                name = "Wonder Flower",
+                text = {
+                    'NOT IMPLEMENTED YET'
+                }
+            },
+            j_stpck_xray = {
+                name = "X-Ray",
+                text = {
+                    'NOT IMPLEMENTED YET'
+                }
+            },
+            j_stpck_galacticnova = {
+                name = "Galactic Nova",
+                text = {
+                    'NOT IMPLEMENTED YET'
+                }
+            },
 		},
 	},
 }
