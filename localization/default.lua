@@ -171,7 +171,9 @@ return {
             j_stpck_jimbosinferno = {
                 name = "Jimbo's Inferno",
                 text = {
-                    'NOT IMPLEMENTED YET'
+                    '{C:green}1 in 3{} chance to destroy',
+					'Played {C:hearts}Heart{} cards',
+					'Cards destroyed by Joker grant {C:mult}+10{} Mult'
                 }
             },
             j_stpck_spaceshiplicense = {
@@ -180,10 +182,10 @@ return {
                     'NOT IMPLEMENTED YET'
                 }
             },
-            j_stpck_playingmygame = {
-                name = "THANK YOU SO MUCH FOR TO PLAYING MY GAME",
+            j_stpck_steamhappy = {
+                name = ":steamhappy:",
                 text = {
-                    '{C:mult}Buh-bye!{}'
+                    ':D'
                 }
             },
             j_stpck_realisticjoker = {
@@ -195,7 +197,8 @@ return {
             j_stpck_deepblues = {
                 name = "Deep Blues",
                 text = {
-                    'NOT IMPLEMENTED YET'
+                    'Playing a hand with a King, Queen, and Ace',
+					'Grants {C:mult} x2.5{} Mult'
                 }
             },
             j_stpck_cloverjoker = {
@@ -222,12 +225,14 @@ return {
                     'NOT IMPLEMENTED YET'
                 }
             },
-            j_stpck_galacticnova = {
-                name = "Galactic Nova",
+            j_stpck_warioapparition = {
+                name = "Wario Apparition",
                 text = {
-                    'NOT IMPLEMENTED YET'
+                    '{C:mult}+20{} Mult',
+					'{C:money} $-5{} when Blind is selected'
+
                 }
-            },
-		},
-	},
+            }
+        }
+    }
 }
